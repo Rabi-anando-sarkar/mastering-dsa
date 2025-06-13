@@ -1,0 +1,20 @@
+{
+    "Basic C++ Template": {
+    	"prefix": "cpptemplate",
+    	"body": [
+      		"#include <iostream>",
+      		"",
+      		"using namespace std;",
+      		"",
+      		"class ${1:ClassName} {",
+      		"",
+      		"};",
+      		"",
+      		"int main() {",
+      		"    $2",
+      		"    return 0;",
+      		"}"
+    	],
+    	"description": "Basic C++ program structure"
+  	}
+}
