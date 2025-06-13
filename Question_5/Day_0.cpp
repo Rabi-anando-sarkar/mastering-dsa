@@ -48,7 +48,7 @@ int main() {
     vector<int> num = {1,1,1,2,2,3,3,3,4,4,4,5,5,6,6,6,6,6,6,6};
 
     int result1 = rd.removeDupMethod1(num);
-    int result2 = rd.removeDupMethod1(num);
+    int result2 = rd.removeDupMethod2(num);
 
     cout << "Number of unique elements | Method 1 : " << result1 << endl;
     cout << "Number of unique elements | Method 2 : " << result2 << endl;
